@@ -135,7 +135,7 @@ class TabelaHash:
 
 
 #9. Exição da tabela hash atualizada após cada operação.
-""" A função 'exibir_tabela' é definida fora da classe e é usada para exibir o conteúdo da tabela hash. """
+""" A função 'exibir_tabela' é usada para exibir o conteúdo da tabela hash. """
 def exibir_tabela(tabela):
     print("Tabela Hash:")
     for indice, elemento in enumerate(tabela):
